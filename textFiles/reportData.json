@@ -1,0 +1,136 @@
+[
+  {
+    "reportId": "R001",
+    "title": "Daily Summary 2025-08-19",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-19T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 120.0
+  },
+  {
+    "reportId": "R002",
+    "title": "Daily Summary 2025-08-18",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-18T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 90.0
+  },
+  {
+    "reportId": "R003",
+    "title": "Daily Summary 2025-08-12",
+    "generatedByUserId": "U002",
+    "generatedAtIso": "2025-08-12T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 150.0
+  },
+  {
+    "reportId": "R004",
+    "title": "Daily Summary 2025-08-15",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-15T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 100.0
+  },
+  {
+    "reportId": "R005",
+    "title": "Daily Summary 2025-08-16",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-16T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 110.0
+  },
+  {
+    "reportId": "R006",
+    "title": "Daily Summary 2025-08-10",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-10T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 130.0
+  },
+  {
+    "reportId": "R007",
+    "title": "Daily Summary 2025-08-09",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-09T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 95.0
+  },
+  {
+    "reportId": "R008",
+    "title": "Daily Summary 2025-08-05",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-05T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 140.0
+  },
+  {
+    "reportId": "R009",
+    "title": "Daily Summary 2025-08-06",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-06T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 85.0
+  },
+  {
+    "reportId": "R010",
+    "title": "Daily Summary 2025-08-01",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-01T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 120.0
+  },
+  {
+    "reportId": "R011",
+    "title": "Daily Summary 2025-07-30",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-07-30T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 75.0
+  },
+  {
+    "reportId": "R012",
+    "title": "Daily Summary 2025-08-14",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-14T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 110.0
+  },
+  {
+    "reportId": "R013",
+    "title": "Daily Summary 2025-08-02",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-02T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 90.0
+  },
+  {
+    "reportId": "R014",
+    "title": "Daily Summary 2025-08-08",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-08T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 105.0
+  },
+  {
+    "reportId": "R015",
+    "title": "Daily Summary 2025-08-13",
+    "generatedByUserId": "U001",
+    "generatedAtIso": "2025-08-13T18:00",
+    "totalAppointments": 1,
+    "totalRevenue": 115.0
+  },
+  {
+    "reportId": "R016",
+    "title": "Daily Report - 2025-08-28",
+    "generatedAtIso": "2025-08-28T18:36:21.0263819",
+    "totalAppointments": 1,
+    "totalRevenue": 0.0
+  },
+  {
+    "reportId": "R017",
+    "title": "Daily Report - 2025-08-28",
+    "generatedAtIso": "2025-08-28T18:43:03.0208624",
+    "totalAppointments": 1,
+    "totalRevenue": 0.0
+  }
+]

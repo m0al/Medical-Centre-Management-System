@@ -1,0 +1,270 @@
+[
+  {
+    "appointmentId": "A001",
+    "customerId": "U300",
+    "doctorId": "U200",
+    "dateTimeIso": "2025-08-28T10:00",
+    "status": "CONFIRMED",
+    "charge": 0.0,
+    "notes": "Routine check-up."
+  },
+  {
+    "appointmentId": "A002",
+    "customerId": "U301",
+    "doctorId": "U201",
+    "dateTimeIso": "2025-08-29T11:00",
+    "status": "PENDING",
+    "charge": 0.0,
+    "notes": "Patient reports a mild headache."
+  },
+  {
+    "appointmentId": "A003",
+    "customerId": "U302",
+    "doctorId": "U202",
+    "dateTimeIso": "2025-08-30T12:00",
+    "status": "CONFIRMED",
+    "charge": 0.0,
+    "notes": "Follow-up visit."
+  },
+  {
+    "appointmentId": "A004",
+    "customerId": "U300",
+    "doctorId": "U201",
+    "dateTimeIso": "2025-08-17T11:15",
+    "status": "COMPLETED",
+    "charge": 0.0,
+    "createdBy": "X",
+    "notes": "Patient cancelled."
+  },
+  {
+    "appointmentId": "A005",
+    "customerId": "U307",
+    "doctorId": "U209",
+    "dateTimeIso": "2025-08-21T09:00",
+    "status": "CONFIRMED",
+    "charge": 0.0,
+    "createdBy": "X",
+    "notes": "Discuss test results."
+  },
+  {
+    "appointmentId": "A006",
+    "customerId": "U302",
+    "doctorId": "U200",
+    "dateTimeIso": "2025-08-12T15:00",
+    "status": "COMPLETED",
+    "charge": 150.0,
+    "notes": "Annual physical exam."
+  },
+  {
+    "appointmentId": "A007",
+    "customerId": "U303",
+    "doctorId": "U203",
+    "dateTimeIso": "2025-08-15T10:30",
+    "status": "COMPLETED",
+    "charge": 100.0,
+    "notes": "Prescription refill."
+  },
+  {
+    "appointmentId": "A008",
+    "customerId": "U304",
+    "doctorId": "U204",
+    "dateTimeIso": "2025-08-16T09:45",
+    "status": "COMPLETED",
+    "charge": 110.0,
+    "notes": "Sore throat and cough."
+  },
+  {
+    "appointmentId": "A009",
+    "customerId": "U305",
+    "doctorId": "U205",
+    "dateTimeIso": "2025-08-22T13:00",
+    "status": "CANCELLED",
+    "charge": 0.0,
+    "createdBy": "X",
+    "notes": "Pre-operative consultation."
+  },
+  {
+    "appointmentId": "A010",
+    "customerId": "U306",
+    "doctorId": "U206",
+    "dateTimeIso": "2025-08-23T11:30",
+    "status": "PENDING",
+    "charge": 0.0,
+    "notes": "New patient registration."
+  },
+  {
+    "appointmentId": "A011",
+    "customerId": "U307",
+    "doctorId": "U207",
+    "dateTimeIso": "2025-08-10T14:00",
+    "status": "COMPLETED",
+    "charge": 130.0,
+    "notes": "Allergy testing."
+  },
+  {
+    "appointmentId": "A012",
+    "customerId": "U308",
+    "doctorId": "U208",
+    "dateTimeIso": "2025-08-09T16:20",
+    "status": "COMPLETED",
+    "charge": 95.0,
+    "notes": "Minor injury."
+  },
+  {
+    "appointmentId": "A013",
+    "customerId": "U309",
+    "doctorId": "U209",
+    "dateTimeIso": "2025-08-24T15:15",
+    "status": "CONFIRMED",
+    "charge": 0.0,
+    "notes": "Vaccination appointment."
+  },
+  {
+    "appointmentId": "A014",
+    "customerId": "U310",
+    "doctorId": "U203",
+    "dateTimeIso": "2025-08-05T10:10",
+    "status": "COMPLETED",
+    "charge": 140.0,
+    "notes": "Blood pressure check."
+  },
+  {
+    "appointmentId": "A015",
+    "customerId": "U311",
+    "doctorId": "U204",
+    "dateTimeIso": "2025-08-06T12:40",
+    "status": "COMPLETED",
+    "charge": 85.0,
+    "notes": "Follow-up on medication."
+  },
+  {
+    "appointmentId": "A016",
+    "customerId": "U312",
+    "doctorId": "U205",
+    "dateTimeIso": "2025-08-25T09:30",
+    "status": "PENDING",
+    "charge": 0.0,
+    "notes": "Awaiting confirmation."
+  },
+  {
+    "appointmentId": "A017",
+    "customerId": "U313",
+    "doctorId": "U206",
+    "dateTimeIso": "2025-08-01T09:00",
+    "status": "COMPLETED",
+    "charge": 120.0,
+    "notes": "Patient was a no-show."
+  },
+  {
+    "appointmentId": "A018",
+    "customerId": "U314",
+    "doctorId": "U207",
+    "dateTimeIso": "2025-07-30T10:45",
+    "status": "COMPLETED",
+    "charge": 75.0,
+    "notes": "X-ray results review."
+  },
+  {
+    "appointmentId": "A019",
+    "customerId": "U300",
+    "doctorId": "U208",
+    "dateTimeIso": "2025-08-14T14:20",
+    "status": "COMPLETED",
+    "charge": 110.0,
+    "notes": "Physical therapy session."
+  },
+  {
+    "appointmentId": "A020",
+    "customerId": "U301",
+    "doctorId": "U209",
+    "dateTimeIso": "2025-08-20T11:00",
+    "status": "CONFIRMED",
+    "charge": 0.0,
+    "notes": "Consultation."
+  },
+  {
+    "appointmentId": "A021",
+    "customerId": "U304",
+    "doctorId": "U202",
+    "dateTimeIso": "2025-08-02T15:30",
+    "status": "COMPLETED",
+    "charge": 90.0,
+    "notes": "Lab work."
+  },
+  {
+    "appointmentId": "A022",
+    "customerId": "U305",
+    "doctorId": "U201",
+    "dateTimeIso": "2025-08-03T10:30",
+    "status": "CANCELLED",
+    "charge": 0.0,
+    "notes": "Rescheduled by patient."
+  },
+  {
+    "appointmentId": "A023",
+    "customerId": "U307",
+    "doctorId": "U200",
+    "dateTimeIso": "2025-08-08T13:15",
+    "status": "COMPLETED",
+    "charge": 105.0,
+    "notes": "Specialist referral."
+  },
+  {
+    "appointmentId": "A024",
+    "customerId": "U312",
+    "doctorId": "U208",
+    "dateTimeIso": "2025-08-13T10:00",
+    "status": "COMPLETED",
+    "charge": 115.0,
+    "notes": "Final check-up."
+  },
+  {
+    "appointmentId": "A025",
+    "customerId": "U300",
+    "doctorId": "U202",
+    "dateTimeIso": "2025-08-11T18:48",
+    "status": "CONFIRMED",
+    "charge": 400.0,
+    "createdBy": "X"
+  },
+  {
+    "appointmentId": "A026",
+    "customerId": "U301",
+    "doctorId": "U202",
+    "dateTimeIso": "2025-08-14T18:50",
+    "status": "CONFIRMED",
+    "charge": 200.0,
+    "createdBy": "X",
+    "notes": "Nothing"
+  },
+  {
+    "appointmentId": "A028",
+    "customerId": "U303",
+    "doctorId": "U204",
+    "dateTimeIso": "2025-09-22T16:06",
+    "status": "CONFIRMED",
+    "charge": 150.0,
+    "createdBy": "X",
+    "notes": "Mild fever"
+  },
+  {
+    "appointmentId": "A029",
+    "customerId": "U303",
+    "doctorId": "U203",
+    "dateTimeIso": "2025-09-17T18:20",
+    "status": "CONFIRMED",
+    "charge": 120.0,
+    "createdBy": "Ravi Kumar",
+    "notes": "Dental problem"
+  },
+  {
+    "appointmentId": "A030",
+    "customerId": "U321",
+    "doctorId": "U200",
+    "dateTimeIso": "2025-10-06T22:48",
+    "status": "CONFIRMED",
+    "charge": 10.0,
+    "createdBy": "Nur Izzah",
+    "notes": ""
+  }
+]

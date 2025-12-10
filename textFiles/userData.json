@@ -1,0 +1,353 @@
+[
+  {
+    "userId": "U001",
+    "role": "MANAGER",
+    "name": "Omar Feras Abu Jafar",
+    "email": "oabujafar@amc.com",
+    "phone": "0104395924",
+    "address": "Kuala Lumpur",
+    "password": "p123"
+  },
+  {
+    "userId": "U002",
+    "role": "MANAGER",
+    "name": "Sarah Lim",
+    "email": "slim@amc.com",
+    "phone": "0148593742",
+    "address": "Bangsar",
+    "password": "pass123"
+  },
+  {
+    "userId": "U100",
+    "role": "CUSTOMER",
+    "name": "Ayman Cassim",
+    "email": "acassim@amc.com",
+    "phone": "01172270039",
+    "address": "Kuala Lumpur",
+    "password": "pass123"
+  },
+  {
+    "userId": "U101",
+    "role": "STAFF",
+    "name": "Nora Ahmad",
+    "email": "nahmad@amc.com",
+    "phone": "0127349586",
+    "address": "Cheras",
+    "password": "pass123"
+  },
+  {
+    "userId": "U102",
+    "role": "STAFF",
+    "name": "Abdul Kumar",
+    "email": "rkumar@amc.com",
+    "phone": "0115827364",
+    "address": "Kuantan",
+    "password": "pass123"
+  },
+  {
+    "userId": "U103",
+    "role": "STAFF",
+    "name": "Nur Izzah",
+    "email": "nizzah@amc.com",
+    "phone": "0129450671",
+    "address": "Ampang",
+    "password": "pass123"
+  },
+  {
+    "userId": "U104",
+    "role": "STAFF",
+    "name": "Jason Ong",
+    "email": "jong@amc.com",
+    "phone": "0138204597",
+    "address": "Setia Alam",
+    "password": "pass123"
+  },
+  {
+    "userId": "U105",
+    "role": "STAFF",
+    "name": "Mei Lin",
+    "email": "mlin@amc.com",
+    "phone": "0143705928",
+    "address": "Cyberjaya",
+    "password": "pass123"
+  },
+  {
+    "userId": "U106",
+    "role": "STAFF",
+    "name": "Hafiz Ali",
+    "email": "hali@amc.com",
+    "phone": "0165037941",
+    "address": "Kajang",
+    "password": "pass123"
+  },
+  {
+    "userId": "U107",
+    "role": "STAFF",
+    "name": "Priya Nair",
+    "email": "pnair@amc.com",
+    "phone": "0172845069",
+    "address": "Klang",
+    "password": "pass123"
+  },
+  {
+    "userId": "U200",
+    "role": "DOCTOR",
+    "name": "Hasan Bamadhaf",
+    "email": "hbamadhaf@amc.com",
+    "phone": "0136092847",
+    "address": "Mont Kiara",
+    "password": "pass123"
+  },
+  {
+    "userId": "U201",
+    "role": "DOCTOR",
+    "name": "Farah Rahman",
+    "email": "frahman@amc.com",
+    "phone": "0167482951",
+    "address": "Shah Alam",
+    "password": "pass123"
+  },
+  {
+    "userId": "U202",
+    "role": "DOCTOR",
+    "name": "Lee Chen",
+    "email": "lchen@amc.com",
+    "phone": "0179304628",
+    "address": "Subang Jaya",
+    "password": "pass123"
+  },
+  {
+    "userId": "U203",
+    "role": "DOCTOR",
+    "name": "Adam Malik",
+    "email": "amalik@amc.com",
+    "phone": "0184579206",
+    "address": "Damansara",
+    "password": "pass123"
+  },
+  {
+    "userId": "U204",
+    "role": "DOCTOR",
+    "name": "Siti Zainab",
+    "email": "szainab@amc.com",
+    "phone": "0193157864",
+    "address": "Bukit Jalil",
+    "password": "pass123"
+  },
+  {
+    "userId": "U205",
+    "role": "DOCTOR",
+    "name": "Arjun Menon",
+    "email": "amenon@amc.com",
+    "phone": "0105937481",
+    "address": "Sri Petaling",
+    "password": "pass123"
+  },
+  {
+    "userId": "U206",
+    "role": "DOCTOR",
+    "name": "Chong Wei",
+    "email": "cwei@amc.com",
+    "phone": "0117049385",
+    "address": "Setapak",
+    "password": "pass123"
+  },
+  {
+    "userId": "U207",
+    "role": "DOCTOR",
+    "name": "Amira Aziz",
+    "email": "aaziz@amc.com",
+    "phone": "0128604973",
+    "address": "Kepong",
+    "password": "pass123"
+  },
+  {
+    "userId": "U208",
+    "role": "DOCTOR",
+    "name": "Vijay Kumar",
+    "email": "vkumar@amc.com",
+    "phone": "0134759208",
+    "address": "TTDI",
+    "password": "pass123"
+  },
+  {
+    "userId": "U209",
+    "role": "DOCTOR",
+    "name": "Nadia Karim",
+    "email": "nkarim@amc.com",
+    "phone": "0149065723",
+    "address": "Damansara Utama",
+    "password": "pass123"
+  },
+  {
+    "userId": "U300",
+    "role": "CUSTOMER",
+    "name": "Mohammed Hani",
+    "email": "mhani@mail.com",
+    "phone": "0185629403",
+    "address": "Bukit Jalil",
+    "password": "p123"
+  },
+  {
+    "userId": "U301",
+    "role": "CUSTOMER",
+    "name": "Aisha Yusuf",
+    "email": "ayusuf@mail.com",
+    "phone": "0197403856",
+    "address": "Puchong",
+    "password": "pass123"
+  },
+  {
+    "userId": "U302",
+    "role": "CUSTOMER",
+    "name": "Daniel Tan",
+    "email": "dtan@mail.com",
+    "phone": "0106729453",
+    "address": "Gombak",
+    "password": "pass123"
+  },
+  {
+    "userId": "U303",
+    "role": "CUSTOMER",
+    "name": "Noor Amin",
+    "email": "namin@mail.com",
+    "phone": "0169457302",
+    "address": "Cheras",
+    "password": "pass123"
+  },
+  {
+    "userId": "U304",
+    "role": "CUSTOMER",
+    "name": "Grace Lee",
+    "email": "glee@mail.com",
+    "phone": "0175609428",
+    "address": "Damansara Perdana",
+    "password": "pass123"
+  },
+  {
+    "userId": "U305",
+    "role": "CUSTOMER",
+    "name": "Rahul Singh",
+    "email": "rsingh@mail.com",
+    "phone": "0186395704",
+    "address": "Setapak",
+    "password": "pass123"
+  },
+  {
+    "userId": "U306",
+    "role": "CUSTOMER",
+    "name": "Lim Wei Jie",
+    "email": "lweijie@mail.com",
+    "phone": "0192584670",
+    "address": "Kepong",
+    "password": "pass123"
+  },
+  {
+    "userId": "U307",
+    "role": "CUSTOMER",
+    "name": "Sofia Ahmad",
+    "email": "sahmad@mail.com",
+    "phone": "0107584396",
+    "address": "Seri Kembangan",
+    "password": "pass123"
+  },
+  {
+    "userId": "U308",
+    "role": "CUSTOMER",
+    "name": "Kavita Rao",
+    "email": "krao@mail.com",
+    "phone": "0118364950",
+    "address": "Puchong",
+    "password": "pass123"
+  },
+  {
+    "userId": "U309",
+    "role": "CUSTOMER",
+    "name": "Yusuf Ali",
+    "email": "yali@mail.com",
+    "phone": "0125790643",
+    "address": "Rawang",
+    "password": "pass123"
+  },
+  {
+    "userId": "U310",
+    "role": "CUSTOMER",
+    "name": "Hannah Wong",
+    "email": "hwong@mail.com",
+    "phone": "0139642057",
+    "address": "Subang Jaya",
+    "password": "pass123"
+  },
+  {
+    "userId": "U311",
+    "role": "CUSTOMER",
+    "name": "Muhammad Irfan",
+    "email": "mirfan@mail.com",
+    "phone": "0148265309",
+    "address": "Gombak",
+    "password": "pass123"
+  },
+  {
+    "userId": "U312",
+    "role": "CUSTOMER",
+    "name": "Alicia Tan",
+    "email": "atan@mail.com",
+    "phone": "0163740582",
+    "address": "Bangsar South",
+    "password": "pass123"
+  },
+  {
+    "userId": "U313",
+    "role": "CUSTOMER",
+    "name": "Nurul Aidan",
+    "email": "naida@mail.com",
+    "phone": "0179426058",
+    "address": "Putrajaya",
+    "password": "pass123"
+  },
+  {
+    "userId": "U314",
+    "role": "CUSTOMER",
+    "name": "John Doe",
+    "email": "jdoe@mail.com",
+    "phone": "0104381047",
+    "address": "Kuala Lumpur",
+    "password": "pass123"
+  },
+  {
+    "userId": "U315",
+    "role": "CUSTOMER",
+    "name": "Janet Doe",
+    "email": "janedoe@mail.com",
+    "phone": "0108497364",
+    "address": "Kuala Lumpur",
+    "password": "pass123"
+  },
+  {
+    "userId": "U316",
+    "role": "CUSTOMER",
+    "name": "Abdul Nation",
+    "email": "abd@amc.com",
+    "phone": "01173856286",
+    "address": "Penang",
+    "password": "pass123"
+  },
+  {
+    "userId": "U317",
+    "role": "CUSTOMER",
+    "name": "Noor Mohammad",
+    "email": "noor@amc.com",
+    "phone": "09287368849",
+    "address": "Langakawi",
+    "password": "pass123"
+  },
+  {
+    "userId": "U321",
+    "role": "CUSTOMER",
+    "name": "mohamed",
+    "email": "mm@mail.com",
+    "phone": "+6011111111",
+    "address": "bukit j",
+    "password": "p123"
+  }
+]

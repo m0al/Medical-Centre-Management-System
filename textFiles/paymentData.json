@@ -1,0 +1,842 @@
+[
+  {
+    "paymentId": "P001",
+    "appointmentId": "A002",
+    "amount": 120.0,
+    "method": "CASH",
+    "timestampIso": "2025-08-19T10:45"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P002",
+    "appointmentId": "A003",
+    "amount": 90.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-18T16:30"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P003",
+    "appointmentId": "A006",
+    "amount": 150.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-08-12T15:30"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P004",
+    "appointmentId": "A007",
+    "amount": 100.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-15T11:00"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P005",
+    "appointmentId": "A008",
+    "amount": 110.0,
+    "method": "CASH",
+    "timestampIso": "2025-08-16T10:15"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P006",
+    "appointmentId": "A011",
+    "amount": 130.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-08-10T14:40"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P007",
+    "appointmentId": "A012",
+    "amount": 95.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-09T16:50"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P008",
+    "appointmentId": "A014",
+    "amount": 140.0,
+    "method": "CASH",
+    "timestampIso": "2025-08-05T10:45"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P009",
+    "appointmentId": "A015",
+    "amount": 85.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-06T13:10"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P010",
+    "appointmentId": "A017",
+    "amount": 120.0,
+    "method": "CASH",
+    "timestampIso": "2025-08-01T09:40"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P011",
+    "appointmentId": "A018",
+    "amount": 75.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-07-30T11:15"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P012",
+    "appointmentId": "A019",
+    "amount": 110.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-14T14:50"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P013",
+    "appointmentId": "A021",
+    "amount": 90.0,
+    "method": "CASH",
+    "timestampIso": "2025-08-02T16:00"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P014",
+    "appointmentId": "A023",
+    "amount": 105.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-08-08T13:45"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P015",
+    "appointmentId": "A024",
+    "amount": 115.0,
+    "method": "CARD",
+    "timestampIso": "2025-08-13T10:30"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P017",
+    "appointmentId": "A026",
+    "amount": 200.5,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:08:01.6662012"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  },
+  {
+    "paymentId": "P018",
+    "appointmentId": "A013",
+    "amount": 120.4,
+    "method": "CASH",
+    "timestampIso": "2025-09-01T14:09:26.0499838"
+  },
+  {
+    "paymentId": "P019",
+    "appointmentId": "A001",
+    "amount": 100.0,
+    "method": "EWALLET",
+    "timestampIso": "2025-09-01T20:59:56.309632"
+  }
+]

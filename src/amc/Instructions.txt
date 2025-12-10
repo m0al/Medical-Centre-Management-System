@@ -1,0 +1,210 @@
+# Java Manager Files Cleanup — Zero Behavior Change
+
+## Goal
+We will process each Java Manager file **one by one** to:
+
+- Remove all old comments.  
+- Organize structure (safe variable placement, sensible method ordering).  
+- Add clear, beginner-friendly documentation.  
+- Clean up internal variable names (camelCase, meaningful).  
+
+⚠️ **Do not change program logic, behavior, or UI style.**  
+The runtime output and UI must remain identical.
+
+---
+
+## Global Rules
+
+1. **No Logic Changes**
+   - Do not alter if/else, loops, data flow, API calls, return values, or side effects.
+   - Do not change exception types thrown or caught.
+   - Do not alter concurrency or synchronization (`synchronized`, `volatile`, `Lock`, `ExecutorService`, etc.).
+
+2. **No UI Changes**
+   - Do not modify user-facing strings, labels, layouts, IDs (JavaFX, Swing, Android).
+   - Do not change CSS/FXML/resource references.
+
+3. **No Public Contract Changes**
+   - Do not rename public classes, interfaces, enums, public methods, or fields.
+   - Do not change any identifier referenced by frameworks, annotations, or reflection.
+   - Do not modify serialization-related names (e.g., Jackson, JAXB annotations).
+
+4. **Naming Rules**
+   - Classes: **PascalCase** (`UserManager`).  
+   - Methods/fields/variables: **camelCase** (`userCount`, `loadManagers`).  
+   - Use descriptive names for locals (`resultList`, `userCount` instead of `x`, `tmp`).  
+   - Do not rename anything exposed outside the file.
+
+5. **Safety First**
+   - If a change could affect behavior, **skip it**.
+   - Leave a comment:  
+     ```java
+     // STEP X: Skipped risky change (reason).
+     ```
+
+---
+
+## Step-by-Step Workflow
+
+1. **Understand the File**
+   - Skim for responsibilities, dependencies, and public APIs.
+   - Identify reflection/config usage (Spring, DI, serialization).
+
+2. **Remove Old Comments**
+   - Delete all comments except license headers.
+
+3. **Organize Imports and Declarations**
+   - Group imports (standard, third-party, project).
+   - Do not reorder static imports if order matters.
+
+4. **Variable Placement**
+   - Prefer fields to stay where they are (Java initialization order is strict).
+   - For locals, move declaration to the top of their **method scope only if safe**.
+   - Never move variables across loops, try/catch, or synchronized blocks.
+
+5. **Method Ordering**
+   - Group methods by purpose: validation, persistence, transformation, etc.
+   - Private helpers can appear before their public consumers (optional).
+   - Do not break override/annotation rules (`@Override`, `@Bean`, etc.).
+
+6. **Add Clear Comments**
+   - Above each method, add a **plain-language description** with PURPOSE, INPUTS, OUTPUT.  
+   - Inside each method, add **step-by-step comments** in the form:  
+     ```java
+     // STEP 1: <explanation>
+     // STEP 2: <explanation>
+     ```
+
+7. **Rename Internal Variables**
+   - Rename only private/local variables and parameters for clarity.
+   - Examples:  
+     - `x` → `userCount`  
+     - `tmp` → `pendingRequestMap`  
+     - `res` → `httpResponse`  
+   - Skip renaming if variable name is externally exposed.
+
+8. **Review for Preservation**
+   - Confirm runtime order and side effects remain unchanged.
+   - Ensure no UI strings or identifiers are modified.
+
+9. **Light Formatting**
+   - Fix indentation and spacing.
+   - Do not reflow string literals or affect formatting-sensitive code.
+
+10. **Final Output**
+   - Return the cleaned `.java` file.
+   - Provide a short summary of changes (what was renamed, grouped, skipped).
+
+---
+
+## Comment Style Guide
+
+### Method Header (Above Each Method)
+
+```java
+/**
+ * PURPOSE: Count how many items belong to a specific user.
+ * INPUTS: userId (the user we are checking), items (the list we search).
+ * OUTPUT: The number of items belonging to that user.
+ */
+```
+
+- No `@param`, `@return`, or tags.  
+- Plain, simple English for **non-coders**.
+
+### Inside Methods (Step Comments)
+
+```java
+// STEP 1: Start the counter at zero.
+// STEP 2: Loop through all items.
+// STEP 3: Check if each item belongs to the user.
+// STEP 4: Return the total count.
+```
+
+---
+
+## Java-Specific Safeguards
+
+- **Initialization Order**  
+  Do not reorder static/instance field initialization, constructors, or initializer blocks.
+
+- **Overrides**  
+  Keep method signatures intact. Do not change parameter order or types.
+
+- **Exceptions**  
+  Do not alter checked/unchecked exception lists.
+
+- **Frameworks**  
+  Preserve Spring annotations (`@Service`, `@Component`, `@RequestMapping`, etc.).  
+  Preserve serialization annotations (`@JsonProperty`, `@XmlElement`, etc.).
+
+- **UI**  
+  Do not touch resource IDs, FXML IDs, CSS selectors, or user-facing strings.
+
+---
+
+## Example
+
+### Before
+```java
+// counts items
+public int g(String u, List<Item> arr) { // todo
+    int x = 0;
+    for (int i = 0; i < arr.size(); i++) {
+        if (arr.get(i).getUser().equals(u)) { x++; }
+    }
+    return x; // count
+}
+```
+
+### After
+```java
+/**
+ * PURPOSE: Count how many items in the list belong to a specific user.
+ * INPUTS: userId (the person we are checking for), items (the list to examine).
+ * OUTPUT: The number of items that belong to that person.
+ */
+public int countUserItems(String userId, List<Item> items) {
+    // STEP 1: Start at zero so we can add as we find matches.
+    int matchCount = 0;
+
+    // STEP 2: Go through every item in the list.
+    for (int i = 0; i < items.size(); i++) {
+        // STEP 3: If this item belongs to the user we care about, add one.
+        if (items.get(i).getUser().equals(userId)) {
+            matchCount++;
+        }
+    }
+
+    // STEP 4: Give back the total number of matching items.
+    return matchCount;
+}
+```
+
+- Method name clarified (if safe).  
+- Variables renamed (`x` → `matchCount`, `u` → `userId`, `arr` → `items`).  
+- Plain-language header + step-by-step comments added.  
+- Logic and output remain **exactly the same**.
+
+---
+
+## Deliverables (Per File)
+
+1. Final cleaned `.java` file.  
+2. Short change summary, e.g.:  
+   - Removed all old comments.  
+   - Added method headers and step comments.  
+   - Renamed locals for clarity (`x` → `matchCount`).  
+   - Preserved method name `g` because it is public API.  
+
+---
+
+## If Unsure, Do No Harm
+
+If a change looks risky, **do not make it**.  
+Add a step comment explaining why it was skipped.
+
+---
+
+**Apply this workflow for each Manager file.**  
+Behavior and UI must stay identical while readability and clarity improve drastically.
