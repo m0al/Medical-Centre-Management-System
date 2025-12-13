@@ -103,5 +103,5 @@ Replace Main with your actual main class name.
 | Mohammed Hani      | Customer Module      |
 | Hasan Abdulwahid   | Doctor Module        |
 | Omar Feras         | Manager Module       |
-| Yosuf Aymen        | Staff / Admin Module |
+| Yosuf Aymen        | Staff Module |
 
